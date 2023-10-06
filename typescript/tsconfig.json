@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowJs": true,
+    "outDir": "build",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "strictPropertyInitialization": false
+  },
+  "exclude": ["node_modules", "build"],
+  "ts-node": {
+    "files": true
+  }
+}
